@@ -64,6 +64,8 @@ fn main() {
     change(&mut b_test);
     // Mutable References
     // To fix the previous code, we need to use a mutable reference:
+    // The slice type
+    // The final section in the ownership chapter introduces slices, which are references to a contiguous sequence of elements in a collection rather than the whole collection.
 }
 
 fn takes_ownership(some_string: String) {
@@ -85,4 +87,14 @@ fn gives_ownership() -> String {
 
 fn change(some_string: &mut String) {
     some_string.push_str(", world");
+}
+
+fn first_word(s: &String) -> usize {
+    let bytes = s.as_bytes();
+    for (i, &item) in bytes.iter().enumerate() {
+        if item == b' ' {
+            return i;
+        }
+    }
+    s.len()
 }
