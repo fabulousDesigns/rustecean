@@ -37,4 +37,29 @@ fn main() {
     // When you see a call to clone, you know some arbitrary code is being executed and that code may be expensive. It's a visual indicator that something different is going on.
     // Stack-Only Data: Copy
     // Now let's look at this code with integers:
+    let w = 5;
+    let z = w;
+    // This code seems to contradict what we just learned: we don't have a call to clone, but x is still valid after assigning to y.
+    // The reason is that types like integers have a known size at compile time and are stored entirely on the stack, so copies of the actual values are quick to make. There's no difference between deep and shallow copying here, so calling clone wouldn't do anything different from the usual shallow copy.
+    // All the integer types
+    // The Boolean type
+    // All the floating-point types
+    // The character type char
+    // Tuples, but only if they contain types that also implement Copy
+    //Ownership and Functions
+    // The semantics for passing a value to a function are similar to assigning a value to a variable. Passing a variable to a function will move or copy, just as assignment does.
+    let greetings = String::from("hello");
+    takes_ownership(greetings);
+    // println!("{}", greetings); // can't use a value after it has been moved
+    let test_makes_copy = 5;
+    makes_copy(test_makes_copy);
+    println!("{test_makes_copy}")  // Nothing happens because Rust will allow copy
+}
+
+fn takes_ownership(some_string: String) {
+    println!("{}", some_string);
+}
+
+fn makes_copy(some_integer: i32) {
+    println!("{}", some_integer);
 }
