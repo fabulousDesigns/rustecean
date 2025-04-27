@@ -60,6 +60,10 @@ fn main() {
     // value into s1
     let s5 = String::from("hello");     // s2 comes into scope
     let s6 = takes_and_gives_back(s2);  // s2 is moved into
+    let mut b_test = String::from("hello");
+    change(&mut b_test);
+    // Mutable References
+    // To fix the previous code, we need to use a mutable reference:
 }
 
 fn takes_ownership(some_string: String) {
@@ -77,4 +81,8 @@ fn takes_and_gives_back(a_string: String) -> String { // a_string comes into the
 fn gives_ownership() -> String {
     let some_string = String::from("yours");
     some_string
+}
+
+fn change(some_string: &mut String) {
+    some_string.push_str(", world");
 }
