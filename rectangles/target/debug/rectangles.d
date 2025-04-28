@@ -1,1 +1,1 @@
-C:\Users\bmaina\RustroverProjects\rustecean\rectangles\target\debug\rectangles.exe: C:\Users\bmaina\RustroverProjects\rustecean\rectangles\src\main.rs
+C:\Users\user\RustroverProjects\rustecean\rectangles\target\debug\rectangles.exe: C:\Users\user\RustroverProjects\rustecean\rectangles\src\main.rs
