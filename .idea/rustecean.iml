@@ -12,6 +12,7 @@
       <sourceFolder url="file://$MODULE_DIR$/structs/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/rectangles/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/methods/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/methods_practical_example/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
       <excludeFolder url="file://$MODULE_DIR$/variables/target" />
       <excludeFolder url="file://$MODULE_DIR$/Data_Types/target" />
@@ -22,6 +23,7 @@
       <excludeFolder url="file://$MODULE_DIR$/structs/target" />
       <excludeFolder url="file://$MODULE_DIR$/rectangles/target" />
       <excludeFolder url="file://$MODULE_DIR$/methods/target" />
+      <excludeFolder url="file://$MODULE_DIR$/methods_practical_example/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
