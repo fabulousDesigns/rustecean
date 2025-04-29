@@ -12,7 +12,24 @@ enum Message {
 }
 // Methods on Enums
 // Like structs, enums can have methods defined with impl:
+impl Message {
+    fn call(&self) {
+        // Method body
+        println!("Calling call");
+    }
+}
+// The Option Enum
+// Rust doesn't have null values, but it has an enum that can express the concept of a value being present or absent:
+enum Option<T>{
+    Some(T),
+    None,
+}
 fn main() {
     let home = IpAddrKind::V4(127,0,0,1);
     let loop_back = IpAddrKind::V6(String::from("::1"));
+    let m = Message::Write(String::from("hello"));
+    m.call();
+    let some_number = Some(5);
+    let some_string = Some("a string");
+    // let absent_number: Option<i32> = None
 }
