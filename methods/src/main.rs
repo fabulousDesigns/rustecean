@@ -14,6 +14,9 @@ impl Rectangle {   // Define methods associated with the Rectangle struct.
     fn square(size: u32) -> Rectangle {
         Rectangle { width: size, height: size }
     }
+    fn new (rectangle: &Rectangle) -> Rectangle {
+        Rectangle { width: rectangle.width, height: rectangle.height }
+    }
 }
 fn main() {
     let rect1 = Rectangle { width: 30, height: 50 };
