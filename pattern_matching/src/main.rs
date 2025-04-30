@@ -21,7 +21,7 @@ fn value_in_cents(coin: Coin) -> u8 {
             println!("State quarter from {state:?}!");
             25
         }
-        Coin::skadoosh => String::from("Skadoosh")
+        Coin::skadoosh => 19
     }
 }
 
