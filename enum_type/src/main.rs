@@ -28,13 +28,13 @@ enum Result<T, E>{
     Ok(T),
     Err(E),
 }
-fn divide(x: f64, y: f64)-> Option<f64> {
-    if y == 0.0 {
-        None
-    }else { 
-        Some(x / y)
-    }
-}
+// fn divide(x: f64, y: f64)-> Option<f64> {
+//     if y == 0.0 {
+//         None
+//     }else { 
+//         Some(x / y)
+//     }
+// }
 fn main() {
     let home = IpAddrKind::V4(127,0,0,1);
     let loop_back = IpAddrKind::V6(String::from("::1"));

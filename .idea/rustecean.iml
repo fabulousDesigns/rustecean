@@ -14,6 +14,8 @@
       <sourceFolder url="file://$MODULE_DIR$/methods/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/methods_practical_example/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/enum_type/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/if_let_and_let_else/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pattern_matching/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
       <excludeFolder url="file://$MODULE_DIR$/variables/target" />
       <excludeFolder url="file://$MODULE_DIR$/Data_Types/target" />
@@ -26,6 +28,8 @@
       <excludeFolder url="file://$MODULE_DIR$/methods/target" />
       <excludeFolder url="file://$MODULE_DIR$/methods_practical_example/target" />
       <excludeFolder url="file://$MODULE_DIR$/enum_type/target" />
+      <excludeFolder url="file://$MODULE_DIR$/if_let_and_let_else/target" />
+      <excludeFolder url="file://$MODULE_DIR$/pattern_matching/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
