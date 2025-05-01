@@ -7,15 +7,20 @@ enum IpAddrKind {
     V6
 }
 // Breaking this down:
-//
 // enum keyword declares we're creating an enumeration
 // IpAddrKind is the name of our new custom type
 // Inside the braces are the "variants" (possible values): V4 and V6
 // Each variant is separated by a comma
 // By convention, variant names are PascalCase (like V4, V6)
-//
-// At this point, our enum just defines the possible variants but doesn't store any additional data. We've created a new type called IpAddrKind that we can use throughout our code.
+// At this point, our enum just defines the possible variants but doesn't store any additional data. 
+// We've created a new type called IpAddrKind that we can use throughout our code.
+// enums in functions
+fn route(ip_kind: IpAddrKind) {
+    println!("{:?}", ip_kind);
+}
 fn main() {
-    println!("{:?}", IpAddrKind::V4);
-    println!("{:?}", IpAddrKind::V6);
+    // println!("{:?}", IpAddrKind::V4);
+    // println!("{:?}", IpAddrKind::V6);
+    route(IpAddrKind::V4);
+    route(IpAddrKind::V6);
 }
