@@ -1,31 +1,21 @@
-// Pattern Matching
-// Pattern matching in Rust allows you to destructure enums, structs, and other types in a concise way.
-#[derive(Debug)]
-enum UsState {
-    Alabama,
-    Alaska,
-}
+// A match expression allows you to:
+// Compare a value against a series of patterns
+// Execute different code depending on which pattern matches
+// Have the compiler verify that all possible cases are handled
+
 enum Coin {
     Penny,
     Nickel,
     Dime,
-    Quarter(UsState),
-    skadoosh,
+    Quarter,
 }
+
 fn value_in_cents(coin: Coin) -> u8 {
-    match coin {  
+    match coin {
         Coin::Penny => 1,
         Coin::Nickel => 5,
         Coin::Dime => 10,
-        Coin::Quarter(state) => {
-            println!("State quarter from {state:?}!");
-            25
-        }
-        Coin::skadoosh => 19
+        Coin::Quarter => 25,
     }
 }
-
-fn main() {
-    let res = value_in_cents(Coin::Quarter(UsState::Alabama));
-    println!("res is {res}");
-}
+fn main(){}
