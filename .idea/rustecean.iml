@@ -19,6 +19,8 @@
       <sourceFolder url="file://$MODULE_DIR$/consice_control_flow_with_if_let_and_let_else/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/option_enum/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/backyard/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/challenges/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/making_structs_and_enums_public/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/packages_and_crates/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/restaurant/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
@@ -38,6 +40,8 @@
       <excludeFolder url="file://$MODULE_DIR$/consice_control_flow_with_if_let_and_let_else/target" />
       <excludeFolder url="file://$MODULE_DIR$/option_enum/target" />
       <excludeFolder url="file://$MODULE_DIR$/backyard/target" />
+      <excludeFolder url="file://$MODULE_DIR$/challenges/target" />
+      <excludeFolder url="file://$MODULE_DIR$/making_structs_and_enums_public/target" />
       <excludeFolder url="file://$MODULE_DIR$/packages_and_crates/target" />
       <excludeFolder url="file://$MODULE_DIR$/restaurant/target" />
     </content>
