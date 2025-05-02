@@ -21,6 +21,16 @@ mod kitchen {
         Delivery,
     }
 }
+mod front_of_house {
+    pub mod hosting {
+        pub fn serve() {}
+    }
+}
+use front_of_house::hosting;
+fn serve_customer() {
+    hosting::serve();
+}
+
 
 fn main() {
     let mut meal = kitchen::Meal::new("Burger");
