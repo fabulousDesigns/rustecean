@@ -18,6 +18,9 @@
       <sourceFolder url="file://$MODULE_DIR$/pattern_matching/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/consice_control_flow_with_if_let_and_let_else/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/option_enum/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/backyard/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/packages_and_crates/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/restaurant/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
       <excludeFolder url="file://$MODULE_DIR$/variables/target" />
       <excludeFolder url="file://$MODULE_DIR$/Data_Types/target" />
@@ -34,6 +37,9 @@
       <excludeFolder url="file://$MODULE_DIR$/pattern_matching/target" />
       <excludeFolder url="file://$MODULE_DIR$/consice_control_flow_with_if_let_and_let_else/target" />
       <excludeFolder url="file://$MODULE_DIR$/option_enum/target" />
+      <excludeFolder url="file://$MODULE_DIR$/backyard/target" />
+      <excludeFolder url="file://$MODULE_DIR$/packages_and_crates/target" />
+      <excludeFolder url="file://$MODULE_DIR$/restaurant/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
