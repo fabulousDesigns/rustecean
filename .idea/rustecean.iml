@@ -23,6 +23,7 @@
       <sourceFolder url="file://$MODULE_DIR$/making_structs_and_enums_public/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/packages_and_crates/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/restaurant/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/use_alias_shortcut/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
       <excludeFolder url="file://$MODULE_DIR$/variables/target" />
       <excludeFolder url="file://$MODULE_DIR$/Data_Types/target" />
@@ -44,6 +45,7 @@
       <excludeFolder url="file://$MODULE_DIR$/making_structs_and_enums_public/target" />
       <excludeFolder url="file://$MODULE_DIR$/packages_and_crates/target" />
       <excludeFolder url="file://$MODULE_DIR$/restaurant/target" />
+      <excludeFolder url="file://$MODULE_DIR$/use_alias_shortcut/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
