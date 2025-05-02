@@ -20,6 +20,7 @@
       <sourceFolder url="file://$MODULE_DIR$/option_enum/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/backyard/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/challenges/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/glob_operator/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/making_structs_and_enums_public/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/packages_and_crates/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/restaurant/src" isTestSource="false" />
@@ -42,6 +43,7 @@
       <excludeFolder url="file://$MODULE_DIR$/option_enum/target" />
       <excludeFolder url="file://$MODULE_DIR$/backyard/target" />
       <excludeFolder url="file://$MODULE_DIR$/challenges/target" />
+      <excludeFolder url="file://$MODULE_DIR$/glob_operator/target" />
       <excludeFolder url="file://$MODULE_DIR$/making_structs_and_enums_public/target" />
       <excludeFolder url="file://$MODULE_DIR$/packages_and_crates/target" />
       <excludeFolder url="file://$MODULE_DIR$/restaurant/target" />
