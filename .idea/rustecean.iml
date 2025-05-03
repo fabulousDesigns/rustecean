@@ -25,6 +25,9 @@
       <sourceFolder url="file://$MODULE_DIR$/packages_and_crates/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/restaurant/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/use_alias_shortcut/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vector_challenges/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vector_iteration_and_manipulation/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vectors/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
       <excludeFolder url="file://$MODULE_DIR$/variables/target" />
       <excludeFolder url="file://$MODULE_DIR$/Data_Types/target" />
@@ -48,6 +51,9 @@
       <excludeFolder url="file://$MODULE_DIR$/packages_and_crates/target" />
       <excludeFolder url="file://$MODULE_DIR$/restaurant/target" />
       <excludeFolder url="file://$MODULE_DIR$/use_alias_shortcut/target" />
+      <excludeFolder url="file://$MODULE_DIR$/vector_challenges/target" />
+      <excludeFolder url="file://$MODULE_DIR$/vector_iteration_and_manipulation/target" />
+      <excludeFolder url="file://$MODULE_DIR$/vectors/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
