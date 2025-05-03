@@ -1,0 +1,1 @@
+C:\Users\user\RustroverProjects\rustecean\working_with_vector_of_struct\target\debug\working_with_vector_of_struct.exe: C:\Users\user\RustroverProjects\rustecean\working_with_vector_of_struct\src\main.rs

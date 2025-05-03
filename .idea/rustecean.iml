@@ -28,6 +28,7 @@
       <sourceFolder url="file://$MODULE_DIR$/vector_challenges/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/vector_iteration_and_manipulation/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/vectors/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/working_with_vector_of_struct/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
       <excludeFolder url="file://$MODULE_DIR$/variables/target" />
       <excludeFolder url="file://$MODULE_DIR$/Data_Types/target" />
@@ -54,6 +55,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vector_challenges/target" />
       <excludeFolder url="file://$MODULE_DIR$/vector_iteration_and_manipulation/target" />
       <excludeFolder url="file://$MODULE_DIR$/vectors/target" />
+      <excludeFolder url="file://$MODULE_DIR$/working_with_vector_of_struct/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
