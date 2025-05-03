@@ -38,5 +38,31 @@ fn main() {
     let field_value = String::from("Blue");
     let mut map = HashMap::new();
     map.insert(field_name, field_value);
-    // field_name and field_value are invalid at this point!
+    // Field_name and field_value are invalid at this point!
+    // If you insert references into a hash map, the values won't be moved. 
+    // However, 
+    // the values that the references point to must be valid for at least as long 
+    // as the hash map is valid.
+    // Updating a Hash Map
+    // Although hash maps can grow to contain more key-value pairs, 
+    // each unique key can only have one value associated with it at a time.
+    // Rust-lang Here are the various ways to handle updates:
+    // 1. Overwriting a Value,
+    // If you insert a key-value pair and then insert the same key with a different value, the original value will be replaced:
+    let mut scores = HashMap::new();
+    scores.insert(String::from("Blue"), 10);
+    scores.insert(String::from("Blue"), 50);
+    println!("{:?}", scores);
+    // 2. Adding a Key-Value Only If the Key Isn't Present, 
+    // Hash maps have a special API called entry for checking 
+    // whether a key exists and inserting a value if it doesn't. 
+    // The entry method returns an enum called Entry 
+    // that represents a value that might or might not exist.
+    let mut scores = HashMap::new();
+    scores.insert(String::from("Blue"), 10);
+    // Insert "Yellow": 50 if "Yellow" doesn't exist (it doesn't)
+    scores.entry(String::from("Yellow")).or_insert(50);
+    // Try to insert "Blue": 50, but "Blue" already exists with value 10
+    scores.entry(String::from("Blue")).or_insert(50);
+    println!("{:?}", scores); // Will print {"Yellow": 50, "Blue": 10}
 }
