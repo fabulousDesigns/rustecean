@@ -20,7 +20,8 @@ fn main() {
     // The get method returns an Option<&V>.
     // If there's no value for that key, it returns None.
     // In the example above,
-    // we handle the Option by calling copied() to get an Option<i32> rather than an Option<&i32>,
+    // we handle the Option by calling copied()
+    // to get an Option<i32> rather than an Option<&i32>,
     // then use unwrap_or(0) to set score to zero if the key doesn't exist in the map. 
     // You can iterate through all key-value pairs using a for loop:
     for (key, value) in &scores {
@@ -28,4 +29,14 @@ fn main() {
         // printed in an arbitrary order
         // (hash maps don't guarantee any specific order)
     }
+    // Hash Maps and Ownership
+    // For types that implement the Copy trait (like i32), 
+    // values are copied into the hash map. 
+    // For owned values like String, 
+    // the values will be moved and the hash map will become the owner of those values.
+    let field_name = String::from("Favorite color");
+    let field_value = String::from("Blue");
+    let mut map = HashMap::new();
+    map.insert(field_name, field_value);
+    // field_name and field_value are invalid at this point!
 }
