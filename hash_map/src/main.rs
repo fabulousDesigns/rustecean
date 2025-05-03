@@ -65,4 +65,27 @@ fn main() {
     // Try to insert "Blue": 50, but "Blue" already exists with value 10
     scores.entry(String::from("Blue")).or_insert(50);
     println!("{:?}", scores); // Will print {"Yellow": 50, "Blue": 10}
+    // The or_insert method returns a mutable reference to the value for the key 
+    // if it exists, 
+    // and if not, it inserts the parameter as the new value 
+    // and then returns a mutable reference to the new value. 
+    // Rust-lang This approach is cleaner than writing our own logic 
+    // and works better with Rust's borrow checker.
+    // 3. Updating a Value Based on the Old Value,
+    // A common use case is 
+    // to update a value based on its current value:
+    let text = "hello world wonderful world";
+    let mut map = HashMap::new();
+    for word in text.split_whitespace() {
+        let count = map.entry(word).or_insert(0);
+        *count += 1;
+    }
+    println!("{:?}", map); // Will print {"world": 2, "hello": 1, "wonderful": 1}
+    // In this example, or_insert returns a mutable reference 
+    // (&mut V) to the value for the specified key. 
+    // We store that mutable reference in the count variable, 
+    // and to update the value, 
+    // we need to dereference count using the asterisk (*). 
+    // The mutable reference goes out of scope at the end of the loop iteration, 
+    // so each change is safe according to Rust's borrowing rules. 
 }
