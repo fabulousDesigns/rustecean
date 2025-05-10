@@ -31,6 +31,7 @@
       <sourceFolder url="file://$MODULE_DIR$/vectors/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/working_with_vector_of_struct/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/hash_map/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/error-handling/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
       <excludeFolder url="file://$MODULE_DIR$/variables/target" />
       <excludeFolder url="file://$MODULE_DIR$/Data_Types/target" />
@@ -60,6 +61,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vectors/target" />
       <excludeFolder url="file://$MODULE_DIR$/working_with_vector_of_struct/target" />
       <excludeFolder url="file://$MODULE_DIR$/hash_map/target" />
+      <excludeFolder url="file://$MODULE_DIR$/error-handling/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
